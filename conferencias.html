@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferencias</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <img src="logo-sena-naranja.43e61d0f.svg" class="logo">
+
+    <img src="colombia_5.0.jpg" class="banner">
+
+    <div class="idioma">
+
+        <button class="btn-idioma" onclick="cambiarIdioma('es')">
+            Español
+        </button>
+
+        <button class="btn-idioma" onclick="cambiarIdioma('en')">
+            English
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- NAV -->
+
+<nav>
+
+<ul>
+
+<li>
+    <a href="index.html">
+        <button>Inicio</button>
+    </a>
+</li>
+
+<li>
+    <a href="conferencias.html">
+        <button>Conferencias</button>
+    </a>
+</li>
+
+<li>
+    <a href="glossary.html">
+        <button>Glossary</button>
+    </a>
+</li>
+
+<li>
+    <a href="conclusion.html">
+        <button>Conclusión</button>
+    </a>
+</li>
+
+</ul>
+
+</nav>
+
+<!-- =========================
+     CONFERENCIA 1
+========================= -->
+
+<section class="conferencia-box">
+
+    <div class="titulo-conferencia">
+
+        <h2 class="es">
+            🎮 Conferencia 
+        </h2>
+
+        <h2 class="en">
+            🎮 Conference 
+        </h2>
+
+    </div>
+
+    <div class="info-conferencia">
+
+        <p class="es">
+            <strong>🎤 Nombre:</strong>
+            Game UI Systems: de pantallas bonitas a interfaces que funcionan
+        </p>
+
+        <p class="en">
+            <strong>🎤 Name:</strong>
+            Game UI Systems: from beautiful screens to interfaces that work
+        </p>
+
+       <!-- CONFERENCISTA -->
+
+<p class="conferencista" onclick="abrirModal('modalAndres')">
+
+    <strong>👨‍🏫 Conferencista:</strong>
+    Andrés Felipe Pisso Tobar
+
+</p>
+
+<!-- MODAL -->
+
+<div class="modal" id="modalAndres">
+
+    <div class="modal-contenido">
+
+        <span class="cerrar" onclick="cerrarModal('modalAndres')">
+            ✖
+        </span>
+
+        <!-- FOTO PERFIL -->
+
+        <img src="andres_pisso.jpg" class="foto-conferencista">
+
+        <h2>
+            🎮 Andrés Felipe Pisso Tobar
+        </h2>
+
+        <h3>
+            Teravision Games - Lead UX Designer
+        </h3>
+
+        <p>
+            UX Lead y especialista en Game UX/UI con más de 12 años de experiencia 
+            creando experiencias digitales, interfaces y sistemas para videojuegos.
+        </p>
+
+        <p>
+            Combina diseño UX/UI, pensamiento de producto, game design, accesibilidad 
+            y sistemas de diseño para reducir fricción, mejorar claridad y ayudar 
+            a equipos a tomar mejores decisiones de diseño.
+        </p>
+
+        <div class="charla-info">
+
+            <h4>
+                🎯 Game UI Systems: de pantallas bonitas a interfaces que funcionan
+            </h4>
+
+            <p>
+                📅 Viernes, 08 de mayo de 2026
+            </p>
+
+            <p>
+                ⏰ 12:00 PM
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- SLIDER -->
+
+    <div class="slider">
+
+        <button class="prev" onclick="moverSlide(-1)">
+            ❮
+        </button>
+
+        <img class="slide active" src="perfil_1.jpg">
+        <img class="slide" src="perfil_3.jpg">
+        <img class="slide" src="perfil_4.jpg">
+        <img class="slide" src="perfil_6.jpg">
+        <img class="slide" src="perfil_7.jpg">
+        <img class="slide" src="perfil_10.jpg">
+
+        <button class="next" onclick="moverSlide(1)">
+            ❯
+        </button>
+
+    </div>
+
+</section>
+
+<!-- VIDEO DE LA CONFERENCIA -->
+
+<section class="video-conferencia">
+
+    <h3>🎥 Evidencia de la Conferencia</h3>
+
+    <div class="contenedor-youtube">
+
+        <iframe
+            src="https://www.youtube.com/embed/GnnMqld3V4U"
+            title="Video de la Conferencia"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <p class="video-descripcion">
+        Registro audiovisual de la conferencia presentada durante el evento Colombia 5.0.
+    </p>
+
+</section>
+
+<!-- RESUMEN -->
+
+<section class="resumen-box">
+
+    <h3 class="es titulo-resumen">
+        ✨ Resumen de la Conferencia
+    </h3>
+
+    <h3 class="en titulo-resumen">
+        ✨ Conference Summary
+    </h3>
+
+    <div class="contenido-resumen">
+
+        <!-- ESPAÑOL -->
+
+        <p class="es">
+
+            En el evento Colombia 5.0 tuve la oportunidad de asistir a la conferencia 
+            de <strong>Andrés Felipe Pisso Tobar</strong> llamada 
+            <strong>“Game UI Systems: de pantallas bonitas a interfaces que funcionan”</strong>.
+
+        
+
+            Durante la charla explicó la importancia del diseño UX/UI en los videojuegos 
+            y cómo una buena interfaz no solo debe verse visualmente atractiva, sino también 
+            ser funcional y fácil de entender para los jugadores.
+
+            <br><br>
+        
+            También habló sobre la creación de sistemas reutilizables en herramientas 
+            como Figma para mantener coherencia visual y mejorar el flujo de trabajo 
+            dentro del desarrollo de videojuegos.
+
+            
+
+            Lo que más me llamó la atención fue entender que elementos como mapas, barras 
+            de vida, menús y objetivos están diseñados estratégicamente para mejorar la 
+            experiencia del usuario y hacer que el jugador se sienta más inmerso.
+
+            <br><br>
+
+            Esta conferencia me dejó como reflexión que el diseño de interfaces en videojuegos 
+            combina creatividad, comunicación visual y funcionalidad para crear experiencias 
+            más claras e intuitivas.
+
+        </p>
+
+        <!-- INGLES -->
+
+        <p class="en">
+
+            At the Colombia 5.0 event, I had the opportunity to attend the conference 
+            by <strong>Andrés Felipe Pisso Tobar</strong> called 
+            <strong>“Game UI Systems: from beautiful screens to interfaces that work”</strong>.
+
+            
+
+            During the talk, he explained the importance of UX/UI design in video games 
+            and how a good interface should not only look visually attractive, but also 
+            be functional and easy for players to understand.
+
+            <br><br>
+
+            He also talked about creating reusable systems in tools such as Figma to maintain 
+            visual consistency and improve workflow within video game development.
+
+         
+
+            What caught my attention the most was understanding that elements such as maps, 
+            health bars, menus, and objectives are strategically designed to improve the 
+            user experience and make players feel more immersed.
+
+            <br><br>
+
+            This conference left me with the reflection that interface design in video games 
+            combines creativity, visual communication, and functionality to create clearer 
+            and more intuitive experiences.
+
+        </p>
+
+    </div>
+
+</section>
+<!-- PALABRAS CLAVE -->
+
+<section class="keywords">
+
+    <h3 class="es">
+        🎯 Palabras Clave
+    </h3>
+
+    <h3 class="en">
+        🎯 Keywords
+    </h3>
+
+    <div class="contenedor-palabras">
+
+        <!-- ESPAÑOL -->
+
+        <span class="es">Game UI Systems</span>
+        <span class="es">Interfaz de usuario (UI)</span>
+        <span class="es">Experiencia de usuario (UX)</span>
+        <span class="es">Videojuegos</span>
+        <span class="es">Figma</span>
+        <span class="es">Diseño funcional</span>
+        <span class="es">Interfaces reutilizables</span>
+        <span class="es">Sistemas visuales</span>
+        <span class="es">Organización visual</span>
+        <span class="es">Jugabilidad</span>
+        <span class="es">Componentes reutilizables</span>
+        <span class="es">Diseño estratégico</span>
+        <span class="es">Comunicación visual</span>
+        <span class="es">Inmersión del jugador</span>
+        <span class="es">Desarrollo de videojuegos</span>
+        <span class="es">Creatividad digital</span>
+        <span class="es">Diseño interactivo</span>
+        <span class="es">Funcionalidad</span>
+        <span class="es">Experiencia del jugador</span>
+        <span class="es">Diseño de interfaces</span>
+
+        <!-- INGLES -->
+
+        <span class="en">Game UI Systems</span>
+        <span class="en">User Interface (UI)</span>
+        <span class="en">User Experience (UX)</span>
+        <span class="en">Video Games</span>
+        <span class="en">Figma</span>
+        <span class="en">Functional Design</span>
+        <span class="en">Reusable Interfaces</span>
+        <span class="en">Visual Systems</span>
+        <span class="en">Visual Organization</span>
+        <span class="en">Gameplay</span>
+        <span class="en">Reusable Components</span>
+        <span class="en">Strategic Design</span>
+        <span class="en">Visual Communication</span>
+        <span class="en">Player Immersion</span>
+        <span class="en">Video Game Development</span>
+        <span class="en">Digital Creativity</span>
+        <span class="en">Interactive Design</span>
+        <span class="en">Functionality</span>
+        <span class="en">Player Experience</span>
+        <span class="en">Interface Design</span>
+
+    </div>
+
+</section>
+
+<!-- SCRIPT -->
+
+<script>
+
+function abrirModal(id){
+
+    document.getElementById(id).style.display = "block";
+
+}
+
+function cerrarModal(id){
+
+    document.getElementById(id).style.display = "none";
+
+}
+
+window.onclick = function(event){
+
+    let modales = document.querySelectorAll(".modal");
+
+    modales.forEach(function(modal){
+
+        if(event.target == modal){
+
+            modal.style.display = "none";
+
+        }
+
+    });
+
+}
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
